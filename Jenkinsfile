@@ -11,7 +11,7 @@ pipeline {
         stage('Parallel Step') {
           steps {
             pwd()
-            sh 'echo Aïe'
+            readFile 'test.txt'
           }
         }
       }
