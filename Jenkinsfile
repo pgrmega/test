@@ -1,10 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('error') {
+    stage('First step') {
       steps {
         echo 'hello'
-        git(url: 'kjhkjh', branch: 'kjklj')
       }
     }
   }
